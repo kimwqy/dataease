@@ -377,6 +377,7 @@ export default {
                 case 'redshift':
                 case 'oracle':
                 case 'db2':
+                case 'xugu':
                   if (configuration.host == this.form.configuration.host && configuration.dataBase == this.form.configuration.dataBase && configuration.port == this.form.configuration.port && configuration.schema == this.form.configuration.schema) {
                     repeatDsName.push(child.name)
                     repeat = true
